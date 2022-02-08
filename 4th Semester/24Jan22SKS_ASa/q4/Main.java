@@ -1,3 +1,7 @@
+/*
+Write a program that accepts radius of a circle and displays area of the circle.
+Declare a constant pi equals to 3.14.
+*/
 // package q4;
 import java.util.Scanner;
 

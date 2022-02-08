@@ -1,3 +1,8 @@
+/*
+Design a Metric class that supports Kilometre to Mile conversion with distance in 
+Kilometre as argument and Mile to Kilometre conversion with distance in mile as 
+argument. Assume, one Mile equals 1.5 Kilometre.
+*/
 // package q10
 
 import java.util.*;

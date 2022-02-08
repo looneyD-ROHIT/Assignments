@@ -1,3 +1,9 @@
+/*
+Design and implement Student class with roll, name and score as attributes. It 
+will have methods to set attributes (attribute values passed as arguments), display 
+the attributes, copy (that copies the content of invoking object to another object 
+passed as argument). Verify that methods are working properly.
+*/
 // package q7;
 
 class Student {

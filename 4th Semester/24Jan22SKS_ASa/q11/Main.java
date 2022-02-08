@@ -1,4 +1,10 @@
-
+/*
+Each Instructor has name and phone number. One can view instructor information and 
+set the information. Textbook has a title, author name and publisher. One can set 
+the data for a textbook and view the same. Each course has a course name, instructor 
+and text book. One can set the course data and view the same.  Design and implement 
+the classes .
+*/
 class Instructor {
     String name;
     long phNo;
@@ -21,7 +27,7 @@ class Instructor {
         System.out.println("Instructor:");
         System.out.println("Name: " + this.name);
         System.out.println("Phone: " + this.phNo);
-        System.out.println("----------------------------------");
+        // System.out.println("----------------------------------");
     }
 
     // setter
@@ -57,7 +63,7 @@ class TextBook {
         System.out.println("Title: " + this.title);
         System.out.println("Author Name: " + this.authorName);
         System.out.println("Publisher: " + this.publisher);
-        System.out.println("----------------------------------");
+        // System.out.println("----------------------------------");
     }
 
     // setter
@@ -89,14 +95,14 @@ class Course {
 
     // display
     public void display(){
-        System.out.println("----------------------------------");
+        System.out.println("<<---------------------------------->>");
         System.out.println("Course:");
         System.out.println("Course: " + this.course);
         // instructor display call
         this.instructor.display();
         // textbook display call
         this.textbook.display();
-        System.out.println("----------------------------------");
+        // System.out.println("----------------------------------");
     }
 
     public void setter(String course, Instructor instructor, TextBook textbook) {

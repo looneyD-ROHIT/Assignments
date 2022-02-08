@@ -1,3 +1,9 @@
+/*
+Add constructors in the Student class of earlier problem so that objects can be 
+created with i) roll only, ii) roll and name only, iii) roll, name and score, iv) 
+no value. Also include a copy constructor. Check whether constructors are working or 
+not. Verify, copy constructor results into deep coy or not.
+*/
 // package q8;
 
 class Student {

@@ -1,3 +1,8 @@
+/*
+Write a program that accepts a String and assigns it to another. Check the outcome 
+of comparison with == and equals() method. Take two Strings and put same input for 
+them. Repeat the equality checking. Observe the outcome.
+*/
 // package q5;
 import java.util.*;
 

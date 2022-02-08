@@ -1,4 +1,9 @@
-
+/*
+Design a BankAcct class with account number, balance and interest rate as attribute.  
+Interest rate is same for all account. Support must be there to initialize, change 
+and display the interest rate.  Also supports are to be there to return balance and 
+calculate interest.
+*/
 class BankAcct {
     private int acNo;
     private double balance;

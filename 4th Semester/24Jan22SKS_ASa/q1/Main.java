@@ -1,3 +1,6 @@
+/*
+Write a program to accept two short integers from user and display the sum.
+*/
 import java.util.Scanner;
 
 public class Main{

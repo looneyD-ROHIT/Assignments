@@ -1,3 +1,7 @@
+/*
+Write a program that accepts height in cm as int and displays the height in feet 
+and inches. Assume, 1 inch equals to 2.54 cm and 1 foot equals to 30.5 cm.
+*/
 import java.util.Scanner;
 
 public class Main {
